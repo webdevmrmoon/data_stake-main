@@ -10718,9 +10718,632 @@ body.dark .hamburger .line {
 
 .servicehyperautomation .bannerContent h3 {
     font-size: 46px;
+    line-height: 50px;
+    
 }
 .servicehyperautomation .bannerContent h2 {
     font-size: 46px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #FF222B;
+    background: transparent;
+    -webkit-text-fill-color: #FF222B;
+}
+.servicehyperautomation .bannerContent p {
+    margin-top: 20px;
+    font-style: italic;
+    background: #FFDDDD;
+    padding: 13px;
+    box-shadow: 0px 3px 9px #FFE8E94D;
+    border: 0.5px solid #ffcbcb;
+}
+.servicehyperautomation .bannerContent p span {
+    color: #BF0F16;
+    font-weight: 500;
+}
+
+.servicehyperautomation .bannerImg {
+    margin-top: 0px;
+}
+.bannerImg .bnrImgMain {
+    width: 100%;
+}
+.bannerImg .hyperbnrS1 {
+    width: 15px;
+    position: absolute;
+    left: -50px;
+    top: 20px;
+}
+.bannerImg .hyperbnrS2 {
+    width: 20px;
+    position: absolute;
+    right: -39px;
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+}
+.servicecontentWrapper.servicehyperautomation.bg1 {
+    background:#FFDBDB33;
+}
+
+.servicehyperautomation .aboutParagraph h2 {
+    background: linear-gradient(108deg, #780606 0%, #FF222B 25%, #252525 50%, #982328 75%, #FF222B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+}
+.servicehyperautomation .aboutParagraph p {
+    font-weight: 500;
+    font-style: italic;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #3B3C4A;
+}
+/* .servicehyperautomation2 .aboutParagraph p {
+    font-weight: 500;
+    font-style: italic;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #3B3C4A;
+} */
+.servicehyperautomation .serviceContentCard{
+    margin-bottom: 0px;
+}
+
+
+.servicehyperautomation2 .serviceconteContainer .aboutSide h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #010101;
+}
+
+.servicehyperautomation2 .secContent .aboutParagraph {
+    text-align: center;
+}
+.servicehyperautomation2 .secContent .aboutParagraph h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #030303;
+    -webkit-text-fill-color: #030303;
+    margin-bottom: 20px;
+}
+.servicehyperautomation2 .secContent .aboutParagraph p {
+    color: #3b3c4acc;
+    text-align: center;
+}
+.aboutImg .toolsmainImg img {
+    width: 80%;
+    transform: scaleX(-1);
+}
+.toolscol {
+    padding: 40px;
+}
+.toolscol.first {
+    background: #F2FBFF;
+    height: 100%;
+}
+.toolscol.sec {
+    background: #FFF7F7;
+    height: 100%;
+}
+.aboutSideContentsWrapper.toolscol {
+    margin: 0px;
+}
+
+.hyperautoComponentsWrapper {
+    margin-top: 30px;
+}
+.hcCard {
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+}
+.hcCard h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.hccardIco {
+    width: 80%;
+    margin: 10px auto;
+} 
+.hcCard:hover .hccardIco {
+    width: 40%;
+}
+.hccardIco img {
+    width: 100%;
+}
+.hcCardContent {
+    margin-bottom: 0px;
+    height: 0px;
+    margin-top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.hcCard:hover .hcCardContent {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+.hcCardContent p {
+    color: #3b3c4acc;
+    font-size: 15px;
+}
+.hRelContent {
+    width: 80%;
+}
+.hRelContent h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.hRelContent p {
+    color: #3B3C4ACC;
+}
+.hrelFeatCard {
+    padding: 20px;
+    text-align: center;
+}
+.hrelIcon {
+    width: 70px;
+    padding: 17px;
+    margin: auto;
+    height: 70px;
+    border-radius: 100%;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+}
+.hrelFeatCard:hover .hrelIcon {
+    border: 1px solid #000;
+}
+.hrelIcon img {
+    width: 100%;
+}
+.hrelFeatCard p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.toggleBtn {
+    width: 58px;
+    height: 27px;
+    position: relative;
+}
+
+.hyperautoPackage {
+    display: flex
+    ;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+        margin-top: 20px;
+}
+.hyperautoPackage span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #030303;
+}
+.hyperautoPackage .checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.hyperautoPackage .switch {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #04092152;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    position: inherit;
+    top: 0px;
+    transform: initial;
+}
+
+.hyperautoPackage .slider {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: calc(50% - 27px / 2 - 15px);
+    top: calc(50% - 25px / 2);
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.hyperautoPackage .checkbox:checked+.switch {
+    background-color: #34C759;
+}
+
+.hyperautoPackage .checkbox:checked+.switch .slider {
+    left: calc(50% - 27px / 2 + 16px);
+    top: calc(50% - 25px / 2);
+}
+.hyperautoPackage .slider:before {
+    display: none;
+}
+.hypeautoImg  {
+    width: 100%;
+}
+.hypeautoImg  img {
+    width: 100%;
+}
+.durinvetWrapper {
+    margin-top: 30px;
+}
+
+.durinvestCard {
+    text-align: center;
+    padding: 30px 60px;
+    box-shadow: 0px 3px 10px #BEEDFF99;
+    width: 96%;
+    min-height: 430px;
+    
+}
+.durinvestCard:hover {
+    background: #e4f7ff;
+}
+.durinvestCard h4 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #191D23;
+}
+.durinvestCard img {
+    width: 80%;
+    margin: auto;
+}
+.durinvestCard p {
+    color: #808080;
+    margin-bottom: 10px;
+}
+.durinvestCard span {
+    color: #191D23;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.durationNdInvestment .countersWraper  {
+    background: #FFF6F6;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.durationNdInvestment .common-box {
+    background: transparent;
+}
+.durationNdInvestment .counter-text {
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+}
+.durinvestCard h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #191D23;
+}
+
+
+.newHome .managedSerBnr  .bannerContent h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #030303;
+    -webkit-text-fill-color: #030303;
+}
+.newHome .managedSerBnr  .bannerContent p {
+    margin-top: 20px;
+}
+
+
+.mngdserWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgcaniTileWrap {
+    position: relative;
+    width: 50%;
+    height: 708px;
+    display: flex
+;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.mngTileCard {
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBFF;
+    border-radius: 9px;
+    text-align: center;
+    width: 160px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+.mngtileWrap .mngTileCard:nth-child(1) {
+    top: 0px;
+    left: 18%;
+    animation: tile1Animation 3s linear infinite;
+}
+
+.mngtileWrap .mngTileCard:nth-child(2) {
+    top: 21%;
+    left: 49%;
+    animation: tile2Animation 3s linear infinite;
+    animation-delay: 3s;
+}
+
+.mngtileWrap .mngTileCard:nth-child(3) {
+    top: 46%;
+    left: 57%;
+    animation: tile1Animation 3s linear infinite;
+    animation-delay: 6s;
+}
+
+.mngtileWrap .mngTileCard:nth-child(4) {
+    bottom: 8%;
+    right: 31%;
+    animation: tile1Animation 3s linear infinite;
+    animation-delay: 9s;
+}
+
+.mngtileWrap .mngTileCard:nth-child(5) {
+    bottom: 0px;
+    left: 13%;
+    animation: tile1Animation 3s linear infinite;
+    animation-delay: 12s;
+}
+
+/* Keyframes for individual tiles */
+/* @keyframes tile1Animation {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes tile2Animation {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
+
+
+.imgCenterLogo {
+    width: 30%;
+    position: relative;
+    z-index: 2;
+
+}
+.imgCenterLogo img {
+    width: 100%;
+}
+.mngTileCard img {
+    width: 60px;
+    height: 56px;
+    margin: auto;
+    
+}
+.mngTileCard h5 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.imgcaniTileWrap::after {
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 0.5px;
+    border: 0.5px dashed #57EAFF;
+    transform: rotate(302deg) translate(140px, -60px);
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+    left: 0px;
+
+}
+
+.imganiContent {
+    width: 50%;
+    background: #FFFFF7;
+        height: 708px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+.imganiContCard {
+    position: relative;
+    text-align: center;
+}
+.imganiContCard h4 {
+    font-size: 24px;
+    color: #030303;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.imganiContCard img {
+    width: 100%;
+}
+.imganiContCard p {
+    color: #03030399;
+}
+
+.mngdserWhychooseBg {
+    position: absolute;
+    top:-8px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.mngdwhyContent h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #030303;
+    line-height: 26px;
+    font-style: italic;
+}
+.newHome .mngdserWhychoose .counter-num span {
+    color: #000000;
+}
+.newHome .mngdserWhychoose .counter-text {
+    color: #4F4F4F;
+}
+.mngdserWhychoose .countermidimageswarp img.ctmaincircle {
+    width: 100%;
+}
+.mngdserWhychoose .countermidimageswarp img.ctimg1  {
+    width: 101px;
+    height: 120px;
+}
+.mngdserWhychoose .countermidimageswarp img.ctimg2 {
+    width: 75px;
+    left: -21px;
+    height: 60px;
+}
+.mngdserWhychoose  .countermidimageswarp img.ctimg3 {
+    width: 74px;
+    right: -20px;
+    height: 54px;
+    TOP: -10px;
+}
+.countermidimageswarp img.ctimg4 {
+    width: 101px;
+    left: 19px;
+    bottom: -10px;
+    height: 110px;
+}
+.mngdserWhychoose .countermiddelimg {
+    width: 90%;
+    margin: auto;
+}
+.mngdserWhychoose .serviceCounterWrapp {
+    margin-top: 60px;
+}
+.benefitMngdSer .titleSection h4  {
+    color: #3B3C4A99;
+    width: 78%;
+}
+
+.benefitMngdSer .industryContent h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.benefitMngdSer .industryContent p {
+    line-height: 26px;
+}
+
+.faqsWrap {
+    margin-top: 20px;
+}
+.mngdFaqs .btnHover {
+    margin-top: 30px;
+    padding: 14px 30px;
+}
+.mngdFaqs .titleSection h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.mngdFaqs .accordion-button:focus {
+    box-shadow: none;
+}
+
+.mngdFaqs .accordion-button:not(.collapsed)::after {
+    background-image: url(../img/managed-services/accordian-minus.svg);
+    transform: none;
+    background-position: center;
+}
+.mngdFaqs .accordion-button::after {
+    background-image: url(../img/managed-services/accordian-plus.svg);
+    transform: none;
+    background-position: center;
+    left: 20px;
+    position: absolute;
+}
+.mngdFaqs .accordion-button {
+    padding-left: 58px;
+    color: #1B1139 !important;
+    box-shadow: none!important;
+    font-weight: 500;
+}
+.mngdFaqs .accordion-button:not(.collapsed) {
+    background: transparent;
+}
+.mngdFaqs .accordion {
+    border-width: 0px;
+}
+.mngdFaqs .accordion-body {
+    padding-top: 0px;
+    padding-left: 58px;
+}
+.mngdFaqs .accordion-body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363049;
+}
+.mngdFaqs .accordion-item {
+    margin-bottom: 20px;
+}
+.collaborationWrapper.mngdSer .titleSection h2 {
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+}
+.collaborationWrapper.mngdSer .titleSection h5 {
+
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #fff;
 }
 
 @media screen and (max-width:1240px) and (min-width:1000px) {
@@ -10905,6 +11528,112 @@ body.dark .hamburger .line {
 
     .bannerContent {
         height: 370px;
+    }
+
+    .servicehyperautomation .bannerContent h3 {
+        font-size: 40px;
+    }
+    .servicehyperautomation .bannerContent h2 {
+        font-size: 40px;
+    }
+    .servicehyperautomation .bannerContent p {
+        font-size: 13px;
+        line-height: normal;
+    }
+    .bannerImg::after {
+        display: none;
+    }
+    .servicehyperautomation .bannerContent {
+        height: auto;
+    }
+    .servicehyperautomation .bannerContentWrapper {
+        min-height: auto;
+        padding: 0px;
+    }
+    .servicehyperautomation .aboutParagraph h2 {
+        font-size: 26px;
+    }
+    .serviceconteContainer .aboutSide p {
+        line-height: 25px;
+    }
+    .servicehyperautomation2 .serviceconteContainer .aboutSide h2 {
+        font-size: 20px;
+    }
+    .hcCard h3 {
+        font-size: 13px;
+    }
+    .hcCardContent p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .hyperautoComponentsWrapper {
+        margin-top: 10px;
+    }
+    .hRelContent h4 {
+        font-size: 18px;
+    }
+    .hRelContent p {
+        font-size: 13px;
+    }
+    .hRelContent {
+        width: 89%;
+    }
+    .durinvestCard {
+        padding: 20px 20px;
+    }
+    .durationNdInvestment .counter-text {
+        font-size: 13px;
+    }
+    .newHome .managedSerBnr .bannerContent h2 {
+        font-size: 25px;
+    }
+    .imgcaniTileWrap {
+        height: 608px;
+    }
+    .mngTileCard img {
+        width: 50px;
+        height: 46px;
+    }
+    .mngTileCard {
+        width: 140px;
+    height: 130px;
+    }
+    .mngtileWrap .mngTileCard:nth-child(5) {
+        left: 7%;
+    }
+    .imganiContCard h4 {
+        font-size: 18px;
+    }
+    .imganiContCard p {
+        font-size: 14px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg1 {
+        width: 81px;
+        height: 90px;
+    }
+    .countermidimageswarp img.ctimg4 {
+        width: 91px;
+        height: 90px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg2 {
+        width: 55px;
+
+        height: 50px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg3 {
+        width: 64px;
+        height: 44px;
+        TOP: -40px;
+    }
+    .mngdwhyContent h5 {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .mngdserWhychoose .serviceCounterWrapp {
+        margin-top: 20px;
+    }
+    .imganiContent {
+        height: 628px;
     }
 }
 
@@ -11254,6 +11983,143 @@ body.dark .hamburger .line {
     .footer-btm-wrp .row {
         justify-content: space-between;
     }
+    
+
+    .servicehyperautomation .bannerContent h3, .servicehyperautomation .bannerContent h2 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .bannerContentWrapper {
+        min-height: auto;
+    }
+    .servicehyperautomation .aboutParagraph h2 {
+        font-size: 18px;
+        line-height: normal;
+        text-align: left;
+    }
+    .servicehyperautomation .aboutParagraph p {
+        
+    }
+    .servicehyperautomation2 .serviceconteContainer .aboutSide h2 {
+        text-align: left;
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .serviceconteContainer .aboutSide p {
+        font-size: 13px;
+    }
+    .hcCard {
+        padding: 10px;
+    }
+    .hcCard h3 {
+        font-size: 11px;
+    }
+    .hcCardContent p {
+        font-size: 10px;
+        line-height: normal;
+    }
+    .hRelContent h4 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .hRelContent p {
+        font-size: 13px;
+        line-height: normal;
+    }
+    .hrelIcon {
+        width: 54px;
+        padding: 12px;
+        height: 54px;
+    }
+    .hrelFeatCard p {
+        color: #000;
+        font-size: 10px;
+        line-height: normal;
+
+    }
+    .hrelFeatCard {
+        padding: 10px;
+    }
+    .durinvestCard {
+        padding: 10px;
+        /* min-height: ; */
+    }
+    .durationNdInvestment .counter-text {
+        font-size: 11px;
+    }
+
+
+    .newHome .managedSerBnr .bannerContent h2 {
+                font-size: 20px;
+        line-height: normal;
+
+    }
+    .newHome .managedSerBnr .bannerContent p {
+        font-size: 10px;
+        line-height: normal;
+    }
+    .managedSerBnr .bnrbtn a {
+        font-size: 13px;
+        padding: 7px 20px;
+    }
+    .imgcaniTileWrap {
+        height: 428px;
+    }
+    .mngTileCard img {
+        width: 40px;
+        height: 36px;
+    }
+    .mngTileCard h5 {
+        font-size: 9px;
+    font-weight: 600;
+    }
+    .mngTileCard {
+        width: 110px;
+        height: 90px;
+    }
+    .mngtileWrap .mngTileCard:nth-child(5) {
+        left: 3%;
+    }
+    .imgcaniTileWrap::after {
+        width: 150px;
+        transform: rotate(302deg) translate(70px, -30px);
+    }
+    .imganiContCard h4 {
+        font-size: 18px;
+    }
+    .imganiContCard p {
+        font-size: 14px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg1 {
+        width: 81px;
+        height: 90px;
+    }
+    .countermidimageswarp img.ctimg4 {
+        width: 91px;
+        height: 90px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg2 {
+        width: 55px;
+
+        height: 50px;
+    }
+    .mngdserWhychoose .countermidimageswarp img.ctimg3 {
+        width: 64px;
+        height: 44px;
+        TOP: -40px;
+    }
+    .mngdwhyContent h5 {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .mngdserWhychoose .serviceCounterWrapp {
+        margin-top: 20px;
+    }
+    .imganiContent {
+        height: 478px;
+        padding: 10px;
+    }
 }
 
 
@@ -11384,6 +12250,15 @@ body.dark .hamburger .line {
     .scrolling-text.fulltext {
         line-height: 75px;
         font-size: 101px;
+    }
+    .hcCard {
+        height: auto;
+    }
+    .hcCard:hover .hccardIco {
+        width: 32%;
+    }
+    .durinvestCard {
+        width: 100%;
     }
 }
 
@@ -12423,6 +13298,10 @@ body.dark .hamburger .line {
     .hasSub.active>a {
         color: #ec1f27;
     }
+
+    .mngdserWrapper  {
+        flex-direction: column;
+    }
 }
 
 
@@ -12569,7 +13448,85 @@ body.dark .hamburger .line {
         margin: 0px;
         width: 100%;
     }
+    .servicehyperautomation .bannerContent h3, .servicehyperautomation .bannerContent h2 { 
+        font-size: 22px;
+        line-height: normal;
+    }
+    .hRelContent h4 {
+        text-align: center;
+        font-family:22px;
+    }
+    .hRelContent {
+        width: 100%;
+    }
+    .hRelContent p {
+        text-align: center;
+    }
+    .durinvestCard {
+        padding: 15px;
+    }
+    .durationNdInvestment .countersWraper {
+        padding: 20px;
+    }
+
+    .newHome .managedSerBnr .bannerContent h2 {
+        font-size: 15px;
+    }
+    .newHome .managedSerBnr .bannerContent p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .imgcaniTileWrap {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        height: fit-content;
+    }
+    .mngtileWrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 9px;
+    }
+    .mngTileCard {
+        position: inherit;
+        width: 46%;
+    }
+    .imgCenterLogo {
+        margin: auto;
+    }
+    .imganiContent {
+        width: 100%;
+        padding: 0px;
+        height: fit-content;
+    }
+    .imganiContCard h4 {
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .imganiContCard p {
+        font-size: 12px;
+        padding: 0px 30px;
+    }
+    .mngdserWhychoose  {
+        padding-top: 40px;
+    }
+    .mngdserWhychoose .serviceCounterWrapp {
+        margin-top: 20px;
+    }
+    .mngdwhyContent h5 {
+        text-align: center;
+    }
+    .mngdserWhychoose .countermiddelimg {
+        margin: 40px auto;
+    }
+    .mngdFaqs .titleSection h2 {
+        font-size: 19px;
+    }
+  
 }
+
 
 @media(max-width:320px) {
     .user-panel-btn a {
