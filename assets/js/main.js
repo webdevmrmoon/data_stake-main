@@ -594,3 +594,61 @@ document.querySelectorAll('.btnHover').forEach(link => {
         textSpan.textContent = originalText;
     });
 });
+
+
+$(document).ready(function () {
+    $(".panel").hide(); // Hide all panels initially
+    $("#panel1").show(); // Show the first panel by default
+
+    $(".tab").click(function () {
+        $(".tab").removeClass("active"); // Remove 'active' from all tabs
+        $(this).addClass("active"); // Add 'active' to clicked tab
+
+        let targetPanel = "#" + $(this).data("target");
+
+        // Check if the clicked panel is already visible
+        if (!$(targetPanel).is(":visible")) {
+            $(".panel:visible").fadeOut(300, function () { // Fade out current panel
+                $(targetPanel).fadeIn(300); // Fade in new panel
+            });
+        }
+    });
+});
+
+
+$(document).ready(function () {
+    let tabs = $(".tabtwo");
+    let panels = $(".paneltwo");
+    let currentIndex = 0;
+
+    panels.hide(); // Hide all panels initially
+    $(tabs[0]).addClass("active"); // Set first tab as active
+    $(panels[0]).show(); // Show the first panel by default
+
+    // Click event for manual switching
+    $(".tab").click(function () {
+        clearInterval(autoSwitch); // Stop auto-switching when user clicks
+        switchTab($(this).index());
+    });
+
+    // Function to switch tabs & panels
+    function switchTab(index) {
+        tabs.removeClass("active"); // Remove active class from all tabs
+        panels.stop(true, true).fadeOut(300); // Stop ongoing animations & fade out panels
+
+        $(tabs[index]).addClass("active"); // Add active class to selected tab
+        $(panels[index])
+            .delay(300)
+            .fadeIn(300)
+            .css("display", "none") // Ensure no flickering
+            .slideDown(400); // Slide down smoothly
+
+        currentIndex = index; // Update current index
+    }
+
+    // Auto-switch function every 2 seconds
+    let autoSwitch = setInterval(function () {
+        currentIndex = (currentIndex + 1) % tabs.length; // Loop back to first after last tab
+        switchTab(currentIndex);
+    }, 2000);
+});

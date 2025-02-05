@@ -10715,7 +10715,9 @@ body.dark .hamburger .line {
 .newHome .titleSection {
     width: 100%;
 }
-
+.servicehyperautomation.bgcolor {
+    background-color: #FFDBDB33;
+}
 .servicehyperautomation .bannerContent h3 {
     font-size: 46px;
     line-height: 50px;
@@ -10732,10 +10734,11 @@ body.dark .hamburger .line {
 .servicehyperautomation .bannerContent p {
     margin-top: 20px;
     font-style: italic;
-    background: #FFDDDD;
+    background: #FFF6F6;
     padding: 13px;
     box-shadow: 0px 3px 9px #FFE8E94D;
-    border: 0.5px solid #ffcbcb;
+    border: 0.5px solid #FFDDDD;
+    color: #3A1315;
 }
 .servicehyperautomation .bannerContent p span {
     color: #BF0F16;
@@ -11091,7 +11094,7 @@ body.dark .hamburger .line {
 
 .mngtileWrap .mngTileCard:nth-child(3) {
     top: 46%;
-    left: 57%;
+    left: 52%;
     animation: tile1Animation 3s linear infinite;
     animation-delay: 6s;
 }
@@ -11175,31 +11178,73 @@ body.dark .hamburger .line {
 .imgcaniTileWrap::after {
     position: absolute;
     content: '';
-    width: 250px;
-    height: 0.5px;
+    width: 0.5px;
     border: 0.5px dashed #57EAFF;
-    transform: rotate(302deg) translate(140px, -60px);
+    transform: rotate(20deg);
     bottom: 0px;
-    top: 0px;
+    top: 96px;
     margin: auto;
-    left: 0px;
+    left: 96px;
+    height: 240px;
+    bottom: auto;
+    margin-left: 0px;
+    transform-origin: bottom;
+    animation: rotatoePineAni 10s linear infinite;
+    animation-delay: 0.75s;
 
+}
+@keyframes rotatoePineAni {
+    0% {
+        transform: rotate(20deg);
+    }
+    15% {
+        transform: rotate(20deg);
+    }
+    20% {
+        transform: rotate(61deg);
+    }
+    35% {
+        transform: rotate(61deg);
+    }
+    40% {
+        transform: rotate(102deg);
+    }
+    55% {
+        transform: rotate(102deg);
+    }
+    60% {
+        transform: rotate(130deg);
+    }
+    75% {
+        transform: rotate(130deg);
+    }
+    80% {
+        transform: rotate(162deg);
+    }
+    95% {
+        transform: rotate(162deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
 }
 
 .imganiContent {
     width: 50%;
     background: #FFFFF7;
-        height: 708px;
+    height: 708px;
     display: flex
 ;
     align-items: center;
     justify-content: center;
     padding: 70px;
 }
+
 .imganiContCard {
     position: relative;
     text-align: center;
 }
+
 .imganiContCard h4 {
     font-size: 24px;
     color: #030303;
@@ -11344,6 +11389,119 @@ body.dark .hamburger .line {
     font-weight: 600;
     line-height: 37px;
     color: #fff;
+}
+
+
+
+.toolimgsecwidth {
+    width: 85%;
+}
+.toolsLogo .toolWrap {
+    position: relative;
+}
+.toolcenteredLogo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.toolcenteredLogo img {
+    width: 130px;
+    height: 130px;
+}
+.toolLogoCard {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.toolWrap .toolLogoCard:nth-child(1) {
+    margin: auto;
+}
+.toolWrap .toolLogoCard:nth-child(2) {
+    margin-left: 31px;
+}
+.toolWrap .toolLogoCard:nth-child(3) {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: -150px;
+    margin-bottom: 0px;
+}
+.toolWrap .toolLogoCard:nth-child(4) {
+    margin: auto;
+}
+.toolLogoCard img {
+    position: relative;
+    z-index: 1;
+    width: 152px;
+    height: 152px;
+}
+.toolWrap .toolLogoCard:nth-child(1)> img  {
+    transform: rotate(180deg);
+}
+.toolWrap .toolLogoCard:nth-child(2)> img  {
+    transform: rotate(90deg);
+}
+.toolWrap .toolLogoCard:nth-child(3)> img {
+    transform: rotate(270deg) scale(1.5);
+}
+.toolWrap .toolLogoCard:nth-child(4)> img  {
+    transform: rotate(0deg);
+}
+.toolLogoCard.active> img {
+    filter: hue-rotate(114deg);
+}
+.toologoContent {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 110px;
+    height: fit-content;
+    text-align: center;
+}
+.toolWrap .toolLogoCard:nth-child(1) .toologoContent  {
+    top: -41px;
+}
+.toolWrap .toolLogoCard:nth-child(2) .toologoContent  {
+    left: -30px;
+}
+.toolWrap .toolLogoCard:nth-child(3) .toologoContent  {
+    right: -20px;
+}
+.toologoContent img {
+    width: 35px;
+    height: 35px;
+}
+.toologoContent h6 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: center;
+}
+.aboutImg {
+    min-height: 485px;
+}
+.toolsmainImg .panel {
+    display: none;
+}
+.toolsmainImg .panel.active {
+    display: block;
+}
+.tabtwo {
+    transition: 0.4s ease-in-out;
+}
+.tabtwo.active {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #ddd;
 }
 
 @media screen and (max-width:1240px) and (min-width:1000px) {
@@ -14763,11 +14921,43 @@ body.dark .hamburger .line {
         height: 55px;
         padding: 12px;
     }
+    .aboutImg {
+        width: 100%;
+        min-height: 405px;
+    }
 }
 
 
 @media screen and (max-width:480px) {
-  
+    .toolWrap .toolLogoCard:nth-child(1) .toologoContent {
+        top: -12px;
+    }
+    .aboutImg {
+        width: 100%;
+        min-height: fit-content;
+    }
+    .toolLogoCard img {
+        width: 92px;
+        height: 138px;
+    }
+    .toologoContent img {
+        width: 25px;
+        height: 25px;
+    }
+    .toologoContent {
+        width: 60px;
+    }
+    .toolcenteredLogo img {
+        width: 100px;
+        height: 100px;
+    }
+    .toolWrap .toolLogoCard:nth-child(2) {
+        margin-left: 0px;
+    }
+    .toolWrap .toolLogoCard:nth-child(3)> img {
+        transform: rotate(270deg) scale(1);
+    }
+
     /* .aboutParagraph .normalList li {
         text-align: left;
     } */
